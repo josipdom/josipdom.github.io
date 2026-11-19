@@ -104,6 +104,9 @@ h2 span { color: var(--teal); margin-right: 10px; }
 .box h3 { margin: 0 0 6px; font-size: 12px; font-weight: 400; letter-spacing: 1px; color: var(--teal); }
 .box:nth-child(even) h3 { color: var(--violet); }
 .box p { margin: 0; font-size: 14px; color: var(--soft); }
+.box.next { grid-column: 1 / -1; border-style: dashed; background: none; }
+.box.next h3 { color: var(--teal); }
+.box.next p { color: var(--text); }
 @media (min-width: 600px) { .kit { grid-template-columns: 1fr 1fr; } }
 
 /* project cards */
