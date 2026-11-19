@@ -33,7 +33,25 @@
       <h1>Building backends that <em>last</em>.<span class="cur" aria-hidden="true"></span></h1>
       <p class="role">// .NET backend developer · Zagreb</p>
       <p class="lead">Good software should solve problems without creating new ones. I design APIs and backend systems that stay maintainable long after launch.</p>
-      <a class="btn" href="#projects">&gt; view projects</a>
+      <p class="cta">
+        <a class="btn" href="#projects">&gt; view projects</a>
+        <a class="btn alt" href="https://www.linkedin.com/in/josip-domini%C4%87/" rel="noopener">&gt; linkedin ↗</a>
+      </p>
+      <svg class="globe" viewBox="0 0 240 240" role="img" aria-labelledby="globe-t">
+        <title id="globe-t">Croatia outlined on a globe, with Zagreb marked</title>
+        <g class="grat">
+          <circle cx="120" cy="120" r="100"/>
+          <ellipse cx="120" cy="120" rx="50" ry="100"/>
+          <ellipse cx="120" cy="120" rx="86.6" ry="100"/>
+          <path d="M120 20V220M20 120H220M33.4 70H206.6M33.4 170H206.6M70 33.4H170M70 206.6H170"/>
+        </g>
+        <path class="hr" d="M63 95L70 95L79 95L83 92L90 95L95 96L95 89L100 86L102 82L101 77L108 75L114 72L119 69L125 76L132 83L143 87L152 88L161 84L164 89L165 95L171 102L165 108L159 110L145 105L126 102L117 102L114 108L105 105L104 113L110 123L112 128L119 136L126 144L131 148L138 158L143 162L154 174L147 169L137 162L134 158L126 151L116 147L106 141L94 131L88 118L88 108L80 100L75 105L71 112L65 105Z"/>
+        <path class="lead-line" d="M108 87L140 52H168"/>
+        <circle class="ping" cx="108" cy="87" r="5"/>
+        <circle class="dot" cx="108" cy="87" r="2.5"/>
+        <text x="142" y="44" class="t1">ZAGREB</text>
+        <text x="142" y="66" class="t2">45.81°N 15.98°E</text>
+      </svg>
     </section>
 
     <section id="about" aria-labelledby="h-about">
@@ -48,39 +66,84 @@
       <h2 id="h-projects"><span>02</span> projects</h2>
       <div class="projects">
         <article class="project">
-          <p class="idx">&gt; project_05 <span>2024–2026</span></p>
+          <p class="idx">&gt; project_05 <span>07.2024 – 07.2026</span></p>
           <h3>The Phoenix Backend</h3>
-          <p class="meta">Endava · Senior Developer · Healthcare</p>
-          <p>Modular API for a community and wellness platform: social features, feeds, donations and notifications. I owned the backend structure and introduced shared standards for logging, health checks, error handling and validation.</p>
-          <ul class="tags"><li>.NET</li><li>PostgreSQL</li><li>CQRS</li><li>Clean Architecture</li><li>GitHub Actions</li></ul>
+          <p class="meta">Endava · Senior Developer · Healthcare &amp; Life Sciences</p>
+          <h4>// overview</h4>
+          <p>Modular .NET platform behind a community and wellness product: social features, feeds, donations, notifications and internal operational tools. Integrates with Redis, Elasticsearch, Stripe, Firebase, SEON, Hugging Face, Salesforce and Flipt.</p>
+          <h4>// what_i_did</h4>
+          <ul class="did">
+            <li>Owned the backend structure and key architectural decisions in a layered clean architecture (API, application, domain, infrastructure).</li>
+            <li>Defined patterns for API consistency, error handling, logging and service communication.</li>
+            <li>Contributed to the gradual adoption of CQRS as the solution grew.</li>
+            <li>Worked directly with the client on social interactions, the personal growth journey and feed features, from design discussions to production.</li>
+          </ul>
+          <h4>// impact</h4>
+          <p>Introduced consistent standards for logging, health checks, error handling and validation pipelines, which made the platform more reliable and easier to operate and debug in production.</p>
+          <h4>// stack</h4>
+          <ul class="tags"><li>.NET</li><li>C#</li><li>PostgreSQL</li><li>CQRS</li><li>Docker</li><li>Amazon S3</li><li>GitHub Actions</li><li>Amplitude</li></ul>
         </article>
         <article class="project">
-          <p class="idx">&gt; project_04 <span>2024</span></p>
+          <p class="idx">&gt; project_04 <span>02.2024 – 05.2024</span></p>
           <h3>J.Hilburn</h3>
-          <p class="meta">Endava · Senior Developer · Retail</p>
-          <p>Moved legacy features of a tailoring retail platform to a new architecture without changing business behaviour, and delivered the Fit Profiles feature end to end.</p>
+          <p class="meta">Endava · Senior Developer · Retail &amp; CPG</p>
+          <h4>// overview</h4>
+          <p>Short engagement modernizing a legacy tailoring retail platform by rebuilding selected components in a newer codebase.</p>
+          <h4>// what_i_did</h4>
+          <ul class="did">
+            <li>Migrated legacy functionality into the new architecture while preserving existing business behaviour.</li>
+            <li>Delivered the Fit Profiles feature end to end, from implementation to integration.</li>
+            <li>Balanced legacy constraints with modern practices to keep the transition smooth and disruption low.</li>
+          </ul>
+          <h4>// stack</h4>
           <ul class="tags"><li>C#</li><li>.NET Core</li><li>SQL Server</li><li>A/B testing</li></ul>
         </article>
         <article class="project">
-          <p class="idx">&gt; project_03 <span>2021–2024</span></p>
+          <p class="idx">&gt; project_03 <span>08.2021 – 01.2024</span></p>
           <h3>eRecruit by Bullhorn</h3>
           <p class="meta">Endava · Developer · Healthcare staffing ERP</p>
-          <p>Backend work on core modules of a large staffing ERP (Time &amp; Labor, Match Confirmations, Match Extensions), plus production support and steady code improvements.</p>
-          <ul class="tags"><li>.NET Core</li><li>GraphQL</li><li>T-SQL</li><li>TypeScript</li><li>Docker</li><li>ELK</li></ul>
+          <h4>// overview</h4>
+          <p>Large ERP platform for healthcare staffing and workforce management.</p>
+          <h4>// what_i_did</h4>
+          <ul class="did">
+            <li>Built backend features in core modules: Time &amp; Labor, Match Confirmations and Match Extensions, plus shared platform services.</li>
+            <li>Supported production by investigating and fixing issues as they appeared.</li>
+            <li>Improved existing code to keep the system stable and maintainable over time.</li>
+            <li>Took part in planning, code reviews and daily work with developers, QA and product teams.</li>
+          </ul>
+          <h4>// stack</h4>
+          <ul class="tags"><li>.NET Core</li><li>GraphQL</li><li>T-SQL</li><li>TypeScript</li><li>Knockout JS</li><li>Docker</li><li>ELK</li><li>TeamCity</li></ul>
         </article>
         <article class="project">
-          <p class="idx">&gt; project_02 <span>2019–2021</span></p>
+          <p class="idx">&gt; project_02 <span>06.2019 – 07.2021</span></p>
           <h3>Fina InfoBiz</h3>
-          <p class="meta">IN2 · Full-stack Developer · Finance</p>
-          <p>New and existing modules for a financial data and business intelligence platform, moving legacy workflows to modern, maintainable solutions.</p>
-          <ul class="tags"><li>.NET Core</li><li>ASP.NET</li><li>Entity Framework</li><li>JavaScript</li></ul>
+          <p class="meta">IN2 · Full-stack Developer · Financial Services</p>
+          <h4>// overview</h4>
+          <p>Enterprise initiative to digitalize and modernize business processes on a financial data and business intelligence platform.</p>
+          <h4>// what_i_did</h4>
+          <ul class="did">
+            <li>Developed new and existing modules on both backend and frontend with .NET.</li>
+            <li>Moved legacy workflows to modern, maintainable solutions across multiple teams.</li>
+            <li>Improved functionality, stability and performance of the system.</li>
+            <li>Wrote technical documentation for delivery, onboarding and maintenance, and helped align technical solutions with functional requirements.</li>
+          </ul>
+          <h4>// stack</h4>
+          <ul class="tags"><li>.NET Core</li><li>C#</li><li>ASP.NET</li><li>Entity Framework</li><li>JavaScript</li><li>SCSS</li></ul>
         </article>
         <article class="project">
-          <p class="idx">&gt; project_01 <span>2017–2019</span></p>
+          <p class="idx">&gt; project_01 <span>11.2017 – 05.2019</span></p>
           <h3>CRM &amp; public sector apps</h3>
-          <p class="meta">centar MCS · Junior Developer · Public sector</p>
-          <p>Internal web and desktop applications for day-to-day operations: new features, bug fixes and improvements based on user feedback.</p>
-          <ul class="tags"><li>.NET Framework</li><li>C#</li><li>SQL Server</li><li>PHP</li></ul>
+          <p class="meta">centar MCS · Junior Developer · Public sector &amp; small business</p>
+          <h4>// overview</h4>
+          <p>Internal web and desktop applications supporting day-to-day business operations.</p>
+          <h4>// what_i_did</h4>
+          <ul class="did">
+            <li>Maintained and extended web and Windows applications in production.</li>
+            <li>Implemented smaller features and fixed bugs, working closely with senior developers.</li>
+            <li>Gathered user feedback and turned it into practical improvements.</li>
+          </ul>
+          <h4>// stack</h4>
+          <ul class="tags"><li>.NET Framework</li><li>C#</li><li>SQL Server</li><li>PHP</li><li>WordPress</li></ul>
         </article>
       </div>
     </section>
@@ -99,7 +162,7 @@
   <footer>
     <h2 class="speed-h">~/ SPEED</h2>
     <p><strong>Why is this page so fast?</strong></p>
-    <p>The entire page is under 5 kB compressed, so it fits in the first 10 TCP packets a server may send and arrives in a single round trip from a nearby CDN edge. Try it on 2G: it still loads.</p>
+    <p>The entire page is under 7 kB compressed, so it fits in the first 10 TCP packets a server may send and arrives in a single round trip from a nearby CDN edge. Try it on 2G: it still loads.</p>
     <p>Measure first, optimize second. This page is the evidence.</p>
     <p class="legal">
       <span>&copy; 2026 JOSIP DOMINIĆ · BUILT WITH HTML + CSS · NO TRACKERS · end_of_file</span>
