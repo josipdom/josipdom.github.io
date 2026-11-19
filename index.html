@@ -15,6 +15,20 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body id="top">
+  <!-- boot log: plays once on load, then fades out and the page renders in -->
+  <div class="boot" aria-hidden="true"><div>
+    <span><b class="ps">PS C:\dev\josipdom&gt; </b><b class="cmd">dotnet run</b></span>
+    <span style="--d:.55s">Building...</span>
+    <span style="--d:.68s">  Restore complete (0.4s)</span>
+    <span style="--d:.8s">  Portfolio <b class="ok">succeeded</b> (1.2s) → bin\Portfolio.dll</span>
+    <span style="--d:.92s"><b class="ok">Build succeeded</b> in 1.9s</span>
+    <span style="--d:1.02s"><b class="ok">info</b>: Portfolio.Sections[0]</span>
+    <span style="--d:1.06s">      Mapped /about /toolkit /projects /contact</span>
+    <span style="--d:1.14s"><b class="ok">info</b>: Microsoft.Hosting.Lifetime[14]</span>
+    <span style="--d:1.18s">      Now listening on: https://josipdom.github.io</span>
+    <span style="--d:1.26s"><b class="ok">info</b>: Microsoft.Hosting.Lifetime[0]</span>
+    <span style="--d:1.3s">      Application started. Press Ctrl+C to shut down.</span>
+  </div></div>
   <header class="top">
     <div class="bar">
       <a class="logo" href="#top" aria-label="JD, back to top">JD<span>_</span></a>
@@ -172,7 +186,7 @@
   <footer>
     <h2 class="speed-h">~/ SPEED</h2>
     <p><strong>Why is this page so fast?</strong></p>
-    <p>The entire page is under 10 kB compressed, so it fits in the first 10 TCP packets a server may send and arrives in a single round trip from a nearby CDN edge. Try it on 2G: it still loads.</p>
+    <p>The entire page is under 11 kB compressed, so it fits in the first 10 TCP packets a server may send and arrives in a single round trip from a nearby CDN edge. Try it on 2G: it still loads.</p>
     <p>Measure first, optimize second. This page is the evidence.</p>
     <p class="legal">
       <span>&copy; 2026 JOSIP DOMINIĆ · BUILT WITH HTML + CSS · NO TRACKERS · end_of_file</span>
